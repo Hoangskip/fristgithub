@@ -1,0 +1,257 @@
+/*reset css*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+
+html{
+
+font-family:Arial, Helvetica, sans-serif;
+
+}
+#main{
+
+
+
+}
+
+
+#header{
+
+    height: 46.5px;
+    background-color: #000;
+    position:fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 1;
+
+}
+#nav{
+
+display: inline-block;
+
+}
+
+
+#nav, .subnav{
+
+    list-style-type: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+}
+
+#nav> li{
+
+    display: inline-block;
+}
+
+#nav li{
+
+    position: relative;
+
+}
+#nav li:hover .subnav{
+
+    display: block;
+}
+
+
+#nav> li> a{ 
+
+    color:white;
+
+}
+
+#nav> li> a{ 
+
+    line-height: 46.5px;
+
+}
+
+#nav li a{  
+
+    text-decoration: none;  
+    padding: 0 24px;
+    display: inline-block;
+   
+}
+#nav .subnav li:hover ,
+#nav>li:hover>a{
+
+    color:black;
+    background-color: #ccc;
+
+}
+
+
+#nav .subnav{
+
+    display: none; 
+    position:absolute;
+    background-color:#fff;
+    min-width: 160px;
+    top:100%;
+    left:0;
+
+}
+
+#nav .nav-icon-down{
+
+    font-size:8px;
+
+
+}
+
+#nav .subnav a{
+
+    color:black;
+    line-height:40px;
+
+}
+
+#header .search-btn{
+
+float: right;
+
+}
+
+
+#header .search-btn:hover{
+
+    background-color:red;
+    cursor: pointer;
+
+}
+
+
+#header .search-icon{
+
+color:white;
+font-size: 20px;
+line-height: 46.5px;
+padding:0 24px;
+
+}
+
+#slider{
+
+    position: relative;
+    margin-top:46.5px;
+    padding-top: 50%;
+    background: url('../../assets/img/chicago.jpg') top center / cover no-repeat;
+
+}
+
+#slider .text-content{
+    position: absolute;
+    color:white;
+    text-align: center;
+    bottom: 48px;
+    left:50%;
+    transform: translateX(-50%);
+   
+    
+    
+
+}
+#slider .text-description{
+
+
+    margin-top: 25px;
+
+}
+#slider .text-headings{
+
+    font-weight:300 ;
+
+
+}
+
+#content{
+
+    background-color:#fff;
+
+}
+#content .tour-section{
+    background-color:#000;
+}
+
+#content .tour-section,
+#content .contact-section,
+#content .about-section{
+
+    margin-left: auto;
+    margin-right:auto;
+    padding: 64px 16px;
+    width: 800px;
+
+}
+
+#content .title-text{
+
+    font: size 30px;
+    font-weight: 500;
+    text-align: center;
+
+
+}
+#content .sub-title-text{
+
+    text-align: center;
+    font-size:15px;
+    font-family: "Lato", sans-serif;
+    font-style: italic;
+    line-height:1.5;
+    margin-top: 25px;
+    color:rgb(161, 156, 156)
+    
+
+
+}
+
+#content .content-main{
+
+    margin-top: 25px;
+    margin-bottom: 15px;
+    text-align:justify;
+    line-height:30px;
+
+}
+
+#content .member-list{
+padding-top: 32px;
+padding-bottom: 32px;
+
+}
+
+
+#content .member{
+
+    float:left;
+    margin-top: 47px;
+    text-align:center;
+    width: calc(100%/3);
+
+}
+#content .name-part{
+
+
+}
+#content .img-avatar{
+
+    margin-top: 15px;
+    width:154px;
+   border-radius:5px;
+
+}
+
+
+
+#footer{
+
+}
